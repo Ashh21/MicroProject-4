@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <nav>
+                <p>calc</p>
+            </nav>
+            <div class="input-div">
+                <input type="text" id="output" disabled />
+            </div>
+            <div class="div">
+                <div class="btn-div">
+                    <button onclick="showToOutput('7')">7</button>
+                    <button onclick="showToOutput('8')">8</button>
+                    <button onclick="showToOutput('9')">9</button>
+                    <button class="del-btn" onclick="remove()">DEL</button>
+                </div>
+                <div class="btn-div">
+                    <button onclick="showToOutput('4')">4</button>
+                    <button onclick="showToOutput('5')">5</button>
+                    <button onclick="showToOutput('6')">6</button>
+                    <button onclick="showToOutput('+')">+</button>
+                </div>
+                <div class="btn-div">
+                    <button onclick="showToOutput('1')">1</button>
+                    <button onclick="showToOutput('2')">2</button>
+                    <button onclick="showToOutput('3')">3</button>
+                    <button onclick="showToOutput('-')">-</button>
+                </div>
+                <div class="btn-div">
+                    <button onclick="showToOutput('.')">.</button>
+                    <button onclick="showToOutput('0')">0</button>
+                    <button onclick="showToOutput('/')">/</button>
+                    <button onclick="showToOutput('*')">x</button>
+                </div>
+                <div class="btn-div ">
+                    <button class="btn" onclick="clearOutput()">Reset</button>
+                    <button class="btn" onclick="calculate()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

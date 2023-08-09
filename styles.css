@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #3B4664;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input{
+    width: 416px;
+    border-radius: 0.6rem;
+    height: 90px;
+    text-align: right;
+    padding-right: 1.6rem;
+    background-color: #181F32;
+    color: #EAE3DB;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.div{
+    padding: 1.5rem;
+    background-color: #252D44;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 2rem;
+}
+
+.del-btn{
+  background-color: #647299;
+  color: #ffffff;
+}
+
+button{
+    width: 80px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #EAE3DB;
+    color: black;
+} 
+
+.btn-div{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-div > .btn{
+    width: 175px ;
+}
+
+.btn:first-child{
+    background-color: #647299;
+    color: #ffffff;
+}
+
+.btn:last-child{
+    background-color: #D13F30;
+    color: #ffffff;
+}
+
+nav{
+    font-size: 2rem;
+    text-align: left;
+    color: #ffffff;
+}
